@@ -22,6 +22,8 @@ class NourEldin275WordPressAPISymfonyExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
+        $container->setParameter('nour_eldin275_word_press_api_symfony.url', $config['url']);
+
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
     }
