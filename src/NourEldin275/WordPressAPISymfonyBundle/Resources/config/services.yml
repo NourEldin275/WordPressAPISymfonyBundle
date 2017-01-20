@@ -1,0 +1,4 @@
+services:
+#    nour_eldin275_word_press_api_symfony.example:
+#        class: NourEldin275\WordPressAPISymfonyBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

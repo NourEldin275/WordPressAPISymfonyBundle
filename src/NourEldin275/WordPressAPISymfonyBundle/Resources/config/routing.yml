@@ -1,0 +1,3 @@
+nour_eldin275_word_press_api_symfony_homepage:
+    path:     /
+    defaults: { _controller: NourEldin275WordPressAPISymfonyBundle:Default:index }

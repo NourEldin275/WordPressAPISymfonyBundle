@@ -1,3 +1,7 @@
+nour_eldin275_word_press_api_symfony:
+    resource: "@NourEldin275WordPressAPISymfonyBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
